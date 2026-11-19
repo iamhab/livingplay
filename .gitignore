@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Dados locais do usuário (nunca publicar)
+.livingplay*
+*.corrompido
+cookies*
+*.cookies
+cookies.txt
+LivingplayCache/
+cache/
+*.log
+
+# Binários, instaladores e pacotes
+*.exe
+*.msi
+*.msix
+*.zip
+*.whl
+dist/
+build/
+stage/
+out/
+*.pfx
+*.cer
+*.key
+
+# Sistema e editores
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+tests/*.png

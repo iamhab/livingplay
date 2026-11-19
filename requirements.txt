@@ -1,0 +1,8 @@
+# Dependências do Livingplay (instaladas pelo usuário a partir do PyPI; NÃO estão incluídas neste repositório).
+# Versões mínimas = as testadas em 2026-11. Veja THIRD_PARTY_NOTICES.md.
+yt-dlp[default]>=2026.10.26
+pychromecast>=14.1.1
+imageio-ffmpeg>=0.8.1
+deno>=2.9.8
+segno>=1.6.6
+pillow>=10.0.0

@@ -1,0 +1,8 @@
+# Arquivos .bat precisam de fim de linha do Windows (CRLF) para funcionar no cmd.
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.py text eol=lf
+*.md text eol=lf
+*.png binary
+*.ico binary
+*.ttf binary
