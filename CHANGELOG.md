@@ -29,6 +29,7 @@
 - Removida a tela “Aurora” (gerava vídeos grandes e lentos); ficou a Capa.
 
 ### Documentação
+- `docs/INSTALAR.md` (passo a passo de instalação, atualização, desinstalação e problemas comuns), `criar-atalho.bat` (atalhos na Área de Trabalho e no Menu Iniciar) e `iniciar.bat` mais esperto (confere a versão do Python e o Tkinter e reinstala as bibliotecas quando o programa é atualizado).
 - `docs/COMO-FUNCIONA.md`, este histórico, aviso sobre **versões modificadas** (responsabilidade de quem modifica) e regras de **nome e ícone** para forks.
 
 ## 3.1.0 e anteriores

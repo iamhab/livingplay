@@ -45,15 +45,14 @@ Leia também: `TERMS_OF_USE.md` · `DISCLAIMER.md` · `PRIVACY_POLICY.md` · `SE
 
 ## Como instalar e abrir (Windows)
 
-1. Instale o [Python 3](https://www.python.org/downloads/) marcando **“Add python.exe to PATH”**.
-2. Baixe este repositório (**Code → Download ZIP**) e extraia.
-3. Dê dois cliques em **`iniciar.bat`**. Na primeira vez ele cria um ambiente virtual (`.venv`) e instala as dependências do `requirements.txt`; depois abre o programa. Não precisa de administrador.
+Não há instalador pronto: você instala a partir do código, em cerca de 10 minutos. **Passo a passo completo, com solução de problemas: [`docs/INSTALAR.md`](docs/INSTALAR.md).**
 
-Manualmente: `python -m venv .venv`, depois `.venv\Scripts\pip install -r requirements.txt` e `.venv\Scripts\python livingplay.py`.
-
-Na primeira execução o Windows pode pedir permissão no firewall: permita **apenas em rede Privada**.
-
-Este repositório **não oferece instalador pronto (.exe)**. Veja “Licenças” abaixo para entender por quê.
+Resumo:
+1. Instale o [Python 3.11 ou mais novo](https://www.python.org/downloads/), marcando **“Add python.exe to PATH”**.
+2. Baixe este repositório (**Code → Download ZIP**) e extraia numa pasta definitiva (por exemplo, `Documentos\Livingplay`).
+3. Dê dois cliques em **`iniciar.bat`**. Na primeira vez ele prepara tudo dentro da própria pasta (`.venv`) e depois abre o programa. Não precisa de administrador.
+4. Quando o Firewall do Windows perguntar, permita **apenas em Redes privadas**.
+5. Dê dois cliques em **`criar-atalho.bat`** para ter o Livingplay na Área de Trabalho e no Menu Iniciar.
 
 ## Como funciona
 
@@ -110,7 +109,7 @@ TV or on-computer playback; queue, repeat, shuffle, sleep timer, resume; unlimit
 
 ### Install (Windows)
 
-Install [Python 3.11+](https://www.python.org/downloads/) with “Add python.exe to PATH”, download/extract this repository and double-click **`iniciar.bat`** (creates `.venv`, installs `requirements.txt`, opens the program; no administrator needed). Allow the firewall prompt **on Private networks only**. No ready-made installer is published here (see Licenses).
+No ready-made installer: you install from source in about 10 minutes. **Full step-by-step guide with troubleshooting: [`docs/INSTALAR.md`](docs/INSTALAR.md#english).** In short: install [Python 3.11+](https://www.python.org/downloads/) with “Add python.exe to PATH”, download/extract this repository to a permanent folder, double-click **`iniciar.bat`** (sets everything up inside the folder, no administrator needed), allow the firewall on **Private networks** only, and double-click **`criar-atalho.bat`** for Desktop and Start menu shortcuts.
 
 ### How it works
 
